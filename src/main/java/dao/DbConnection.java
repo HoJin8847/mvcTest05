@@ -13,7 +13,6 @@ public class DbConnection {
 	
 	// 싱글톤으로 conn객체를 만들어서 사용하기
 	private static Connection conn;
-	@SuppressWarnings("unused")
 	private static DbConnection instance = new DbConnection();
 	
 	private DbConnection() {

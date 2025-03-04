@@ -15,7 +15,6 @@ import vo.BoardVo;
 public class BoardDao {
 
 	private Connection conn = DbConnection.getConn(); //생성이 아니라 호출해서 사용(싱글톤
-	@SuppressWarnings("unused")
 	private Connection conn2 = DbConnection.getConn(); //같은 객체임
 	private PreparedStatement pstmt;
 	private ResultSet rs;

@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 import dao.BoardDao;
 import vo.BoardVo;
 
-@SuppressWarnings("serial")
 @WebServlet("/boardContent")
 public class BoardContentController extends HttpServlet {
 
