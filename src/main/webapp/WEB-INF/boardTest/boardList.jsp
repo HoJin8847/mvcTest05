@@ -3,16 +3,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8"><jsp:include page="/include/bs5.jsp"/>
   <title>boardList.jsp</title>
-  <jsp:include page="/include/bs5.jsp" />
+  <jsp:include page="/include/bs5.jsp"/>
 </head>
 <body>
 <p><br/></p>
 <div class="container">
   <h2 class="text-center">게시판 리스트</h2>
   <br/>
-  <div class="mb-2"><a href="boardInput" class="btn btn-success">글쓰기</a></div>
+  <div class="row">
+	  <div class="col mb-2"><a href="boardInput" class="btn btn-success">글쓰기</a></div>
+	  <div class="col mb-2 text-end"><a href="/mvcTest05" class="btn btn-success">돌아가기</a></div>
+  </div>
   <table class="table table-hover">
     <tr class="table-secondary text-center">
       <th class="p-3">번호</th>
