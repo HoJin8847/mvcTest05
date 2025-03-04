@@ -4,9 +4,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>.jsp</title>
-	<script>
-		location.href = "/mvcTest05/boardList"
-	</script>
 </head>
 <body>
 <p><br></p>
